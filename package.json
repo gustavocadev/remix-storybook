@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@remix-run/css-bundle": "^1.19.3",
+    "@remix-run/node": "^1.19.3",
+    "@remix-run/react": "^1.19.3",
+    "@remix-run/serve": "^1.19.3",
+    "isbot": "^3.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.19.3",
+    "@remix-run/eslint-config": "^1.19.3",
+    "@storybook/addon-essentials": "7.2.3",
+    "@storybook/addon-interactions": "7.2.3",
+    "@storybook/addon-links": "7.2.3",
+    "@storybook/addon-onboarding": "1.0.8",
+    "@storybook/blocks": "7.2.3",
+    "@storybook/react": "7.2.3",
+    "@storybook/react-vite": "7.2.3",
+    "@storybook/testing-library": "0.2.0",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.38.0",
+    "eslint-plugin-storybook": "^0.6.13",
+    "storybook": "7.2.3",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
